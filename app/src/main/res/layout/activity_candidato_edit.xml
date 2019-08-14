@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Edição de Candidato"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edt_nome_edit"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="26dp"
+                android:ems="10"
+                android:hint="Digite um Nome"
+                android:inputType="textAutoComplete" />
+
+    <EditText
+        android:id="@+id/edt_email_edit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Digite um E-mail"
+        android:inputType="textEmailAddress" />
+            <EditText
+                android:id="@+id/edt_perfil_edit"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="26dp"
+                android:ems="10"
+                android:hint="Digite o perfil"
+                android:inputType="none" />
+
+            <EditText
+                android:id="@+id/edt_data_nasc_edit"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="26dp"
+                android:ems="10"
+                android:hint="Escolha a Data de Nascimento"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/edt_telefone_edit"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="26dp"
+                android:ems="10"
+                android:hint="Digite o Telefone"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/buttonSalvarCandidato_edit"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:text="Salvar Candidato"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+        </LinearLayout>
