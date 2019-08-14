@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ufjf.br.trabalho03">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.CandidatoListActivity"></activity>
+        <activity android:name=".activity.CategoriaInsertActivity" />
+        <activity android:name=".activity.CategoriaListActivity" />
+        <activity android:name=".activity.CandidatoEditActivity" />
+        <activity android:name=".activity.CandidatoInsertActivity" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/title_activity_tarefa_list"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.DetalhesProducaoActivity" />
+        <activity android:name=".activity.DetalhesCandidatoActivity" />
+        <activity android:name=".activity.ProducaoEditActivity" />
+        <activity android:name=".activity.ProducaoInsertActivity" />
+        <activity android:name=".activity.CandidatoListViewActivity" />
+        <activity android:name=".activity.AtividadeInsertActivity" />
+        <activity android:name=".activity.AtividadeEditActivity" />
+    </application>
+
+</manifest>

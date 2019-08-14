@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:id="@+id/lbltitulo"
+        android:text="Produção"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_tituloProducao"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Digite um Título"
+        android:inputType="textAutoComplete" />
+
+    <EditText
+        android:id="@+id/edt_descricao_producao"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Digite uma Descrição"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edt_data_inicio"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Escolha a Data de Inicio"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edt_data_fim"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Escolha a Data de Fim"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edt_horas"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Escolha o total de Horas"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spinnerCategoria"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Escolha uma categoria"
+        android:inputType="none"
+        android:spinnerMode="dialog"
+        android:theme="@style/MatchSpinnerTheme" />
+
+    <Button
+        android:id="@+id/buttonSalvarProducao"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Salvar Produção"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+</LinearLayout>
